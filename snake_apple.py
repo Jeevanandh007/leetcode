@@ -7,12 +7,9 @@ def findMinimumTime(k, position):
         time = abs(0 - i)
         times_needed.append(time)
 
-    times_needed[:k]
+    tt=sum(times_needed[:k])
 
-
-
-
-    return
+    return tt
 
 
 
