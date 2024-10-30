@@ -1,16 +1,17 @@
 def minimumtime(k,position):
-    #position.abs()
+   
     position.sort()
-    print(position)
+    position.abs()
+    
 
-    time=[]
+    min_time=float('inf')
+    min_neg_items = max(0, k - len(pos_positions))
+    max_neg_items = min(k, len(neg_positions))
 
-    for i in position:
-        time.append(abs(i))
-        print(time)
+    for m in range (min_neg_items, ma\)
 
-        #total_time=sum( )
-
+    
+    
     return total_time
 
 k = 5
