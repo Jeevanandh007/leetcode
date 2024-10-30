@@ -1,11 +1,11 @@
 def findMinimumTime(k, position):
     position.sort()
-    #min_time=0
     times_needed =[]
 
     for i in position:
         time = abs(0 - i)
         times_needed.append(time)
+        print(times_needed)
 
     tt=sum(times_needed[:k])
 
